@@ -1,3 +1,6 @@
 from django.shortcuts import render
+from Backend.Auth.views import *
+from Backend.Auth.models import *
 
-# Create your views here.
+def index():
+	return (200)
